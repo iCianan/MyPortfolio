@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\public",
-    "\\src",
     "\\src\\components"
   ],
-  "SelectedNode": "\\src\\components\\landingpage.js",
+  "SelectedNode": "\\web.config",
   "PreviewInSolutionExplorer": false
 }
