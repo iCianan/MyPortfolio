@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\src",
     "\\src\\components"
   ],
-  "SelectedNode": "\\web.config",
+  "SelectedNode": "\\src\\App.js",
   "PreviewInSolutionExplorer": false
 }
