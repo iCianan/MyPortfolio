@@ -44,7 +44,7 @@ class Project extends Component {
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             </CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
+                            <Button colored href="https://github.com/icianan" target="_blank">GitHub</Button>
                             <Button colored>CodePen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
