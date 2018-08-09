@@ -20,7 +20,6 @@
 .avatar-img {
     height: 250px;
     padding-top: 5em;
-  
 }
 
 .banner-text {
@@ -28,8 +27,8 @@
     opacity: .8;
     width: 75%;
     border-radius: 10px;
-    margin:auto;
-    margin-top:4px;
+    margin: auto;
+    margin-top: 4px;
 }
 
     .banner-text h1 {
@@ -57,11 +56,66 @@
     margin: auto;
 }
 
-.social-links i {
-    color: white;
-    font-size: 5em;
-    padding: 5px;
-}
-.projects-grid{
+    .social-links i {
+        color: white;
+        font-size: 5em;
+        padding: 5px;
+    }
+
+.projects-grid {
     display: flex;
+}
+
+.contact-body {
+    margin: auto;
+    position: fixed;
+    background: grey;
+    justify-content: center;
+    padding-top: 2em;
+    width: 100%;
+    height: 100%
+}
+
+.contact-grid {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background: white;
+    color: black;
+    border: 2px solid red;
+    margin-bottom: 20px;
+}
+
+    .contact-grid h2 {
+        font-family: 'Anton', sans-serif;
+    }
+
+    .contact-grid p {
+        font-family: 'oxygen', sans-serif;
+        font-weight: bold;
+    }
+
+    .contact-grid hr {
+        border-top:5px dotted black;
+        width: 50%;
+        margin: auto;
+    }
+
+.contact-list {
+    margin: auto;
+    position: fixed;
+    justify-content: center;
+    padding-top: 2em;
+    width: 100%;
+    height: 100%
+}
+.contact-list i {
+    font-size: 66px;
+    padding-right: 5rem;
+}
+.contact-list img {
+    height: 100px;
+    margin:-15px;
+    padding-right: 55px;
 }
