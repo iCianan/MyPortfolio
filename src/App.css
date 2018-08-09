@@ -63,5 +63,5 @@
     padding: 5px;
 }
 .projects-grid{
-    text-align:center;
+    display: flex;
 }

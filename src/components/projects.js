@@ -20,7 +20,37 @@ class Project extends Component {
                         <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >ASP.NET Project #1</CardTitle>
                         <CardText>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-            </CardText>
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>GitHub</Button>
+                            <Button colored>CodePen</Button>
+                            <Button colored>Live Demo</Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+                    {/* Project 2 */}
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >ASP.NET Project #2</CardTitle>
+                        <CardText>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>GitHub</Button>
+                            <Button colored>CodePen</Button>
+                            <Button colored>Live Demo</Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+                    {/* Project 3 */}
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >ASP.NET Project #3</CardTitle>
+                        <CardText>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                        </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
                             <Button colored>CodePen</Button>
@@ -31,6 +61,7 @@ class Project extends Component {
                         </CardMenu>
                     </Card>
                 </div>
+
 
             )
         }
@@ -44,7 +75,7 @@ class Project extends Component {
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             </CardText>
                         <CardActions border>
-                            <Button colored href="https://github.com/icianan" target="_blank">GitHub</Button>
+                            <Button colored href="https://github.com/iCianan/MyPortfolio" target="_blank">GitHub</Button>
                             <Button colored>CodePen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
@@ -107,16 +138,12 @@ class Project extends Component {
                     <Tab>Solidity</Tab>
                     <Tab>Python</Tab>
                 </Tabs>
-                <section className="projects-grid">
-                    <Grid className="projects-grid">
-                        <cell col={12}>
-                            <div className="content">
-                                {this.toggleCategories()}
-                            </div>
-                        </cell>
-                    </Grid>
 
-                </section>
+                    <Grid>
+                        <Cell col={12}>
+                            <div className="content">{this.toggleCategories()}</div>
+                        </Cell>
+                    </Grid>
             </div >
 
         )
