@@ -26,24 +26,30 @@ class Contact extends Component {
                         <div className="contact-list">
                             <List>
                                 <ListItem>
-                                    <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton' }}>
+                                    <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
                                         <i className="fa fa-phone-square" aria-hiddem="true" /> 
                                         281.330.8004
                                         </ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton' }}>
+                                    <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
                                         <i className="fa fa-linkedin" aria-hiddem="true" />
                                         <a href="https://www.linkedin.com/in/keenanirvin/" target="_blank">LinkedIn</a>
                                         </ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton'}}>
+                                    <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton'}}>
                                         <img
                                             className="icon-image"                                           
                                             src="https://steemitimages.com/DQmVs4bowkrP3M3pejKrNoi6xYuUfzyyEu2qSfSUZpLNAUW/bw-steem-icon.png" />
                                         <a href="https://steemit.com/@ikeenan" target="_blank">Steemit</a>
                                         </ListItemContent>
+                                </ListItem>
+                                <ListItem>
+                                    <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
+                                        <i className="fa fa-envelope" aria-hidden="true" />
+                                        *@gmail.com
+                                    </ListItemContent>
                                 </ListItem>
                             </List>
                         </div>

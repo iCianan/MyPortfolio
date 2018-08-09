@@ -69,7 +69,6 @@
 .contact-body {
     margin: auto;
     position: fixed;
-    background: grey;
     justify-content: center;
     padding-top: 2em;
     width: 100%;
@@ -83,7 +82,6 @@
     height: 550px;
     background: white;
     color: black;
-    border: 2px solid red;
     margin-bottom: 20px;
 }
 
