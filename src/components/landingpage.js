@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import avatar from '../images/ninja.svg';
 
 class Landing extends Component {
     render() {
@@ -7,7 +8,7 @@ class Landing extends Component {
             <div style={{ width: '100%', margin: 'auto' }}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        <img src="https://image.flaticon.com/icons/svg/53/53060.svg"
+                        <img src={avatar}
                             alt="avatar"
                             className="avatar-img" />
                     </Cell>
