@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import samurai from'../images/samurai.png';
 
 class Resume extends Component {
     render() {
@@ -8,7 +9,7 @@ class Resume extends Component {
                 <Cell col={4}>
                     <div style={{ textAlign: 'center' }}>
                         <img
-                            src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                            src={samurai}
                             alt="avatar"
                             style={{ height: '200px' }}
                         />
