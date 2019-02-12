@@ -14,7 +14,7 @@ class About extends Component {
         <b>Grand Valley State University - B.B.A. Management Information Systems</b>
         <br />
         <br />
-        <div className="label">Extracurricular</div>
+        <div className="label">Leadership Experience</div>
         President of Phi Beta Sigma Fraternity, Inc. Nu Gamma Chapter, Secretary of National Pan-Hellenic Council (NPHC) GVSU Chapter, Vice President of National Society of Black Engineers (NSBE) GVSU Chapter, Institute of Electrical and Electronics Engineers (IEEE).
         <br />
         <br />

@@ -24,31 +24,30 @@ class Resume extends Component {
                     </p>
           <hr style={{ borderTop: '3px solid #000046', width: '50%' }} />
           <h5>Email</h5>
-          <p>kirvinb@gmail.com</p>
+          <p><a href="mailto:kirvinb@gmail.com">kirvinb@gmail.com</a></p>
           <h5>Github</h5>
-          <p>https://github.com/iCianan</p>
+          <p><a href="https://github.com/iCianan">https://github.com/iCianan</a></p>
           <hr style={{ borderTop: '3px solid #000046', width: '50%' }} />
 
         </Cell>
         <Cell className="resume-right-col" col={8}>
           <div className="label">Work Experience:</div>
           <br />
-          Full Stack .NET Developer - State of Michigan. Lansing, MI, 4/16 - Present
-          <br />
-          Developed frontend and backend solutions using a test-driven approach for the Michigan Department of Education’s suite of ADA compliant web applications, supporting over 200,000 users. Routinely scanned and analyzed system error logs to proactively provide solutions and patches to bugs and security vulnerabilities to problems unreported to promote increased quality. Completed development using an intensive testing process including code reviews, peer testing, and User Acceptance testing with a separate QA team. Assisted development and design on the rewrite of “ProPrep” supporting all Michigan administrators and educators. Adhered to the SCRUM framework: fixed length sprints, daily standups, sprint planning, retrospectives, and a customer managed backlog. Developed SQL stored procedures, functions, views and ad-hoc reports for stakeholders. Kept skills updated via side projects, onsite trainings and Pluralsight courses and reinforced new skills in Microsoft Azure Cloud environments.
-          <br /><strong>(ASP.NET, VB.NET, C#, SQL Server, SSRS, HTML/CSS/JS, JAWS, WAVE, PowerShell, Visual Studio, TFS, IBM Security AppScan, Angular.JS)</strong>
-          <br />
-          <br />
-          Software Engineer - Civic Eagle. Remote, 4/18 - Present
-          <br />
-          Assisted development and design on the legislative intelligence platform “Enview.”
-          <br /><strong>(ReactJS, NodeJS, PostgreSQL, Git, Docker, VS Code)</strong>
-          <br />
-          <br />
-          Technical Support Analyst – Infor Global Solutions. Grand Rapids, MI 11/13 – 9/15
-          <br />
-          Provided technical support to over 300 international companies for Infor’s suite of ERP products. Maintained internal ERP architecture and desktop and web environments for product testing and bug reproduction. Effectively solved problems by asking questions, gathering information, and analyzing available data including: error logs, debug traces, and application/database code. Utilized senior colleagues and available support material whenever needed. Worked closely with development to get software bugs addressed and fixed promptly. Documented successful solutions to the company’s Knowledge Base for future lookup. Collaborated with a global team supporting customers all over the world including Europe, Japan, and Brazil.
-                    <br /><strong>(Infor LN, Baan ERP, Windows Server, HP-UX, AIX, RedHat, SQL Server, Oracle, Informix, Apache Tomcat, SSH)</strong>
+          <div className="label">Full Stack .NET Developer - State of Michigan. Lansing, MI, 4/16 - Present</div>
+          <ul>
+            <li>Developed frontend and backend solutions using a test-driven approach for the Michigan Department of Education’s suite of ADA compliant ASP.NET applications, supporting over 200,000 users.</li>
+            <li><strong>(ASP.NET, VB.NET, C#, SQL Server, SSRS, HTML/CSS/JS, JAWS, WAVE, PowerShell, Visual Studio, TFS, IBM Security AppScan, Angular.JS)</strong></li>
+          </ul>
+          <div className="label">Contributer - Civic Eagle. Remote, 4/18 - Present</div>
+          <ul>
+            <li>Assisted development and design on the legislative intelligence platform “Enview.”</li>
+            <li><strong>(ReactJS, NodeJS, PostgreSQL, Git, Docker, VS Code)</strong></li>
+          </ul>
+          <div className="label">Technical Support Analyst – Infor Global Solutions. Grand Rapids, MI 11/13 – 9/15</div>
+          <ul>
+            <li>Provided technical support to over 300 international companies for Infor’s suite of ERP products. </li>
+            <li><strong>(Infor LN, Baan ERP, Windows Server, HP-UX, AIX, RedHat, SQL Server, Oracle, Informix, Apache Tomcat, SSH)</strong></li>
+          </ul>
         </Cell>
       </Grid>
 
