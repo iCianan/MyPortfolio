@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import avatar from '../images/ninja.svg';
+import Contact from './contact';
+import { Link, Route, withRouter  } from 'react-router-dom';
+
 
 class Landing extends Component {
     render() {
@@ -30,11 +33,8 @@ class Landing extends Component {
                                 <i className="fa fa-github-square" aria-hidden="true" />
                             </a>
                             {/*Gmail  */}
-                            <a href="https://gmail.com" rel="noopener noreferrer" target="_blank">
-                                <i className="fa fa-envelope" aria-hidden="true" />
-                            </a>
-
-
+                            <Link to="/contact"><i className="fa fa-envelope" aria-hidden="true" /></Link>                                      
+                            <Route path="/contact" component={withRouter(Contact)} />      
                         </div>
 
                         </div>
