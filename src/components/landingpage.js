@@ -16,11 +16,11 @@ class Landing extends Component {
                             className="avatar-img" />
                     </Cell>
                         <div className="banner-text">
-                        <h1>I Build Things</h1>
+                        <h1>Hi, I'm Keenan I design and build things</h1>
                         <hr/>
 
                         <p>
-                            .ASP.NET | C#/VB.NET | Javascript | SQL Server | Microsoft Azure | React | NodeJS
+                            ASP.NET | C# | SQL Server | Microsoft Azure | Javascript | React | NodeJS
                         </p>
                         <div className="social-links">
                             {/*LinkedIn  */}

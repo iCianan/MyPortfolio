@@ -7,7 +7,7 @@ class Resume extends Component {
     return (
       <Grid>
         <Cell col={4}>
-          <div style={{ textAlign: 'center' }}>
+          <div className="ninja" style={{ textAlign: 'center' }}>
             <img
               src={ninja}
               alt="avatar"
@@ -16,18 +16,18 @@ class Resume extends Component {
           </div>
           <h2>Keenan Irvin-Benning</h2>
           <h4>Software Developer</h4>
-          <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+          <hr style={{ borderTop: '3px solid #000046', width: '50%' }} />
           <p>
             Experienced software developer with a passion for identifying problems and offering efficient solutions.
             An excellent record of teamwork and customer service comfortable developing in an Agile environment.
             One who looks forward to pressure situations and working on teams to solve challenging problems.
                     </p>
-          <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+          <hr style={{ borderTop: '3px solid #000046', width: '50%' }} />
           <h5>Email</h5>
           <p>kirvinb@gmail.com</p>
           <h5>Github</h5>
           <p>https://github.com/iCianan</p>
-          <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+          <hr style={{ borderTop: '3px solid #000046', width: '50%' }} />
 
         </Cell>
         <Cell className="resume-right-col" col={8}>
