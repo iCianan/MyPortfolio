@@ -111,7 +111,6 @@ class Project extends Component {
           </Cell>
         </Grid>
       </div >
-
     )
   }
 
