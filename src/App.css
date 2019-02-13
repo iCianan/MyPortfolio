@@ -155,4 +155,11 @@ a, a:visited, a:hover, a:active {
 }
 .page-title {
     text-align: center;
+    color: #428bca;	
+    
+}
+.code-text {
+    background: rgba(218, 212, 212, 0.952);
+    color: black;
+    white-space: pre-wrap;
 }
