@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import ninja from '../images/codingNinja.png';
 
+let subTitile = {
+  fontFamily: 'Oswald',
+};
 class Resume extends Component {
   render() {
     return (
@@ -15,8 +18,8 @@ class Resume extends Component {
             />
           </div>
           <div className="page-title">
-            <h2>Keenan Irvin-Benning</h2>
-            <h4>Software Developer</h4>
+            <h2 className="page-title">Keenan Irvin-Benning</h2>
+            <h4 className="page-title">Software Developer</h4>
           </div>
           <hr style={{ borderTop: '3px solid #000046', width: '50%' }} />
           <p>
@@ -25,10 +28,10 @@ class Resume extends Component {
             One who looks forward to pressure situations and working on teams to solve challenging problems.
                     </p>
           <hr style={{ borderTop: '3px solid #000046', width: '50%' }} />
-          <h5>Email</h5>
+          <h5 style={subTitile}>Email</h5>
           <p><a href="mailto:kirvinb@gmail.com">kirvinb@gmail.com</a></p>
-          <h5>Github</h5>
-          <p><a href="https://github.com/iCianan" target="_blank" >https://github.com/iCianan</a></p>
+          <h5 style={subTitile}>Github</h5>
+          <p><a href="https://github.com/iCianan" rel="noopener noreferrer" target="_blank" >https://github.com/iCianan</a></p>
           <hr style={{ borderTop: '3px solid #000046', width: '50%' }} />
 
         </Cell>

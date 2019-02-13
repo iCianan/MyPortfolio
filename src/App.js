@@ -5,50 +5,58 @@ import Main from './components/Main';
 import { Link } from 'react-router-dom';
 
 class App extends Component {
-    render() {
-        return (
-            <div>
-                {/* Uses a header that scrolls with the text, rather than staying locked at the top */}
-                <div className="demo-big-content">
-                    <Layout>
-                        <Header className="header-color" title={<a href="/">Home</a>} scroll href="/">
-                            <Navigation>
-                                <Link to="/Resume">Resume</Link>
+  render() {
+    return (
+      <div>
+        {/* Uses a header that scrolls with the text, rather than staying locked at the top */}
+        <div className="demo-big-content">
+          <Layout>
+            <Header className="header-color" title={<a style={{color:"white"}} href="/">Home</a>} scroll href="/">
+              <Navigation>
+                <Link to="/Resume">Resume</Link>
+                <Link to="/Blog">Blog</Link>
+                <Link to="/Projects">Projects</Link>
+                <Link to="/AboutMe">About Me</Link>
+                <Link to="/Contact">Contact</Link>
+              </Navigation>
+            </Header>
+            <Drawer className="header-color" title={<a href="/">Home</a>}>
+              <Navigation>
+                <Link to="/Resume">Resume</Link>
+                <Link to="/Blog">Blog</Link>
+                <Link to="/Projects">Projects</Link>
+                <Link to="/AboutMe">About Me</Link>
+                <Link to="/Contact">Contact</Link>
+              </Navigation>
+            </Drawer>
+            <Content>
+              <div className="page-content" />
+              <Main></Main>
 
-                                <Link to="/Blog">Blog</Link>
-                                <Link to="/Projects">Projects</Link>
-                                <Link to="/AboutMe">About Me</Link>
-                                <Link to="/Contact">Contact</Link>
-                            </Navigation>
-                        </Header>
-                        <Drawer title={<a href="/">Home</a>}>
-                            <Navigation>
-                                <Link to="/Resume">Resume</Link>
-                                <Link to="/Blog">Blog</Link>
-                                <Link to="/Projects">Projects</Link>
-                                <Link to="/AboutMe">About Me</Link>
-                                <Link to="/Contact">Contact</Link>
-                            </Navigation>
-                        </Drawer>
-                        <Content>
-                            <div className="page-content" />
-                            <Main></Main>
+            </Content>
+            <Footer size="mini">
+              <FooterSection type="left" logo="">
+                <FooterLinkList>
+                  <Link to="/">Home</Link>
+                  <a href="https://www.linkedin.com/in/keenanirvin" rel="noopener noreferrer" target="_blank">
+                    <i className="fa fa-linkedin-square" aria-hidden="true" />
+                  </a>
+                  <a href="mailto:kirvinb@gmail.com">
+                    <i className="fa fa-at" aria-hidden="true" />
+                  </a>
+                  <a href="https://www.instagram.com/ikeen4n" rel="noopener noreferrer" target="_blank">
+                    <i className="fa fa-instagram" aria-hidden="true" />
+                  </a>
+                </FooterLinkList>
+              </FooterSection>
+            </Footer>
 
-                        </Content>
-                        <Footer size="mini">
-                            <FooterSection type="left" logo="">
-                                <FooterLinkList>
-                                    <Link to="/">Home</Link>
-                                </FooterLinkList>
-                            </FooterSection>
-                        </Footer>
+          </Layout>
+        </div>
 
-                    </Layout>
-                </div>
-
-            </div>
-        );
-    }
+      </div>
+    );
+  }
 }
 
 export default App;

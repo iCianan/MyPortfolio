@@ -6,6 +6,7 @@
     background: #000046; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #1CB5E0, #000046); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .landing-grid {
@@ -130,8 +131,8 @@
     background: #27221F;
     color: white;
 }
-a, a:visited, a:hover, a:active {
-    color: initial;
+a, a:link, a:visited, a:hover, a:active {
+    color: #1CB5E0
 }
 @media (max-width: 750px){
     .landing-grid {
@@ -155,8 +156,8 @@ a, a:visited, a:hover, a:active {
 }
 .page-title {
     text-align: center;
-    color: #428bca;	
-    
+    color:black;
+    font-family: 'Oswald';
 }
 .code-text {
     background: rgba(218, 212, 212, 0.952);

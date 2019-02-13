@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import {Jumbotron, Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button, Container, Row, Col
+import {Card, CardImg, CardText, CardBody,
+  CardTitle, CardSubtitle, Button, Col
 } from 'reactstrap'
 import code from '../images/code.jpeg'
 import { Link } from 'react-router-dom';
-
-
 
 class Blog extends Component {
   render() {
@@ -16,30 +14,17 @@ class Blog extends Component {
         <Card >
           <CardImg className="blog-title-pic" src={code} ></CardImg>
           <CardBody className="text-center">
-          <CardTitle className="blog-title">Two Sum Array Problem</CardTitle> 
+          <CardTitle className="blog-title">Why Create a Blog?</CardTitle> 
           <hr style={{ borderTop: '3px solid #000046', width: '50', marginLeft:'25%', marginRight:'25%'}} />
-          <CardSubtitle>Feb.12.2019 | Data Structures and Algorithms | Reading Time: 5 min</CardSubtitle>
+          <CardSubtitle>Feb.13.2019 | Personal Development | Reading Time: 5 min</CardSubtitle>
             <CardText>
-              Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+              Hey Keenan, why are you wasting time creating a blog? Shouldn't you be learning new tech skills?
             </CardText>
-            <Button tag={Link} to="./blogs/TwoSumArray" outline color="primary">Read Post</Button>
-          </CardBody>
-          <CardImg className="blog-title-pic" src={code} ></CardImg>
-          <CardBody className="text-center">
-          <CardTitle className="blog-title">Two Sum Array Problem</CardTitle> 
-          <hr style={{ borderTop: '3px solid #000046', width: '50', marginLeft:'25%', marginRight:'25%'}} />
-            <CardText>
-              Given an array of integers, return indices of the two numbers such that they add up to a specific target.
-            </CardText>
-            <Button outline color="primary">Read Post</Button>
+            <Button tag={Link} to="./blogs/WhyCreateABlog" outline color="primary">Read Post</Button>
           </CardBody>
         </Card>
         </Col>
-        
-
       </div>
-
-
     )
   }
 

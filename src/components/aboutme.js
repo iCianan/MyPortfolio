@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import { Jumbotron, Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button,  Container, Row, Col } from 'reactstrap'
+import { Jumbotron, Container } from 'reactstrap'
 class About extends Component {
   render() {
     return (
