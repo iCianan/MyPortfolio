@@ -17,11 +17,7 @@
     height: 100%;
     position: fixed;
 }
-@media (max-width: 750px){
-    .landing-grid {
-        position: relative;
-    }
-}
+
 
 
 .avatar-img {
@@ -135,5 +131,28 @@
     color: white;
 }
 a, a:visited, a:hover, a:active {
-    color: black;
+    color: initial;
+}
+@media (max-width: 750px){
+    .landing-grid {
+        position: relative;
+    }
+}
+.blog-title {
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.blog-title-pic {
+    max-width: 500px;
+    max-height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;               
+    
+}
+.page-title {
+    text-align: center;
 }

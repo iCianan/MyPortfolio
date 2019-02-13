@@ -8,7 +8,7 @@ class About extends Component {
       <Container>
       <div>     
         <Jumbotron>
-        <h2>About Me</h2>
+        <h2 className="page-title">About Me</h2>
         <hr className="my-2" />
         <div className="label">Education</div>
         <b>Grand Valley State University - B.B.A. Management Information Systems</b>

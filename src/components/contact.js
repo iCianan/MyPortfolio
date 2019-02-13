@@ -14,7 +14,7 @@ class Contact extends Component {
     return (
       <Grid>
         <Cell col={6}>
-          <div style={{ textAlign: 'center' }}>
+          <div className="page-title">
             <h2 style={styles2}>I want to hear from you!</h2>
             <h3>Let's create something amazing!</h3>
           </div>
@@ -28,7 +28,7 @@ class Contact extends Component {
         </Cell>
         <Cell col={6}>
           <div className="contact-list">
-            <div style={{ textAlign: 'center' }}>
+            <div className="page-title">
               <h2>Contact Me</h2>
               <hr style={{ borderTop: '3px solid #000046', width: '100%', alignContent: 'center' }} />
             </div>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Layout, Header, Navigation, Drawer, Content, Footer, FooterSection, FooterLinkList } from 'react-mdl';
-import Main from './components/main';
+import Main from './components/Main';
 import { Link } from 'react-router-dom';
 
 class App extends Component {
@@ -13,18 +13,21 @@ class App extends Component {
                     <Layout>
                         <Header className="header-color" title={<a href="/">Home</a>} scroll href="/">
                             <Navigation>
-                                <Link to="/resume">Resume</Link>
-                                <Link to="/projects">Projects</Link>
-                                <Link to="/aboutme">About Me</Link>
-                                <Link to="/contact">Contact</Link>
+                                <Link to="/Resume">Resume</Link>
+
+                                <Link to="/Blog">Blog</Link>
+                                <Link to="/Projects">Projects</Link>
+                                <Link to="/AboutMe">About Me</Link>
+                                <Link to="/Contact">Contact</Link>
                             </Navigation>
                         </Header>
                         <Drawer title={<a href="/">Home</a>}>
                             <Navigation>
-                                <Link to="/resume">Resume</Link>
-                                <Link to="/projects">Projects</Link>
-                                <Link to="/aboutme">About Me</Link>
-                                <Link to="/contact">Contact</Link>
+                                <Link to="/Resume">Resume</Link>
+                                <Link to="/Blog">Blog</Link>
+                                <Link to="/Projects">Projects</Link>
+                                <Link to="/AboutMe">About Me</Link>
+                                <Link to="/Contact">Contact</Link>
                             </Navigation>
                         </Drawer>
                         <Content>

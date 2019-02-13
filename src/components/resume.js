@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import ninja from '../images/CodingNinja.png';
+import ninja from '../images/codingNinja.png';
 
 class Resume extends Component {
   render() {
@@ -14,8 +14,10 @@ class Resume extends Component {
               style={{ height: '300px' }}
             />
           </div>
-          <h2>Keenan Irvin-Benning</h2>
-          <h4>Software Developer</h4>
+          <div className="page-title">
+            <h2>Keenan Irvin-Benning</h2>
+            <h4>Software Developer</h4>
+          </div>
           <hr style={{ borderTop: '3px solid #000046', width: '50%' }} />
           <p>
             Experienced software developer with a passion for identifying problems and offering efficient solutions.
@@ -26,7 +28,7 @@ class Resume extends Component {
           <h5>Email</h5>
           <p><a href="mailto:kirvinb@gmail.com">kirvinb@gmail.com</a></p>
           <h5>Github</h5>
-          <p><a href="https://github.com/iCianan">https://github.com/iCianan</a></p>
+          <p><a href="https://github.com/iCianan" target="_blank" >https://github.com/iCianan</a></p>
           <hr style={{ borderTop: '3px solid #000046', width: '50%' }} />
 
         </Cell>

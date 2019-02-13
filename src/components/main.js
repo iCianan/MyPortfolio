@@ -1,22 +1,24 @@
 import React from 'react';
 import {Switch , Route} from 'react-router-dom';
-import About from './aboutme';
-import AboutMe from './aboutme';
-import Projects from './projects';
-import Resume from './resume';
-import LandingPage from './landingpage';
-import Contact from './contact';
+import AboutMe from './AboutMe';
+import Projects from './Projects';
+import Resume from './Resume';
+import LandingPage from './LandingPage';
+import Contact from './Contact';
+import Blog from './Blog';
+import TwoSumArray from './blogs/TwoSumArray';
 
 
 
 const Main = () => (
     <Switch>
         <Route exact path="/" component={LandingPage} />
-        <Route path="/aboutme" component={AboutMe} />
-        <Route path="/resume" component={Resume} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/projects" component={Projects} />
-
+        <Route path="/AboutMe" component={AboutMe} />
+        <Route path="/Resume" component={Resume} />
+        <Route path="/Contact" component={Contact} />
+        <Route path="/Projects" component={Projects} />
+        <Route path="/Blog" component={Blog} />
+        <Route path="/blogs/TwoSumArray" component={TwoSumArray} />
     </Switch>
 )
 

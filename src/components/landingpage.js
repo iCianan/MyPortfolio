@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import avatar from '../images/ninja.svg';
-import Contact from './contact';
+import Contact from './Contact';
 import { Link, Route, withRouter  } from 'react-router-dom';
 
 
