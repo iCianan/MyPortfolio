@@ -13,7 +13,7 @@ class WhyCreateABlog extends Component {
               so I felt as an aspiring software developer it would be wise to help the community and get my name out there. Unfornately, 
               like most I got busy and neglected it. This was in 2016 so who knows where I would be today had I commited and updated it regularly. 
               It wasn't all bad however since at the time I was using Google+ as my blog platform and if you haven't heard 
-              <a href="https://support.google.com/plus/answer/9195133"> Google+ is shutting down April 2, 2019.</a> 
+              <a href="https://support.google.com/plus/answer/9195133" rel="noopener noreferrer" target="_blank"> Google+ is shutting down April 2, 2019.</a> 
               <br />
               <br />
               So anyone who spent time developing a following on that platform is now migrating elsewhere. This is partly why instead of using 
@@ -24,7 +24,7 @@ class WhyCreateABlog extends Component {
               <br />
               Since 2016 I have learned so much about building software. I have worked on multiple teams and read countless technical and
               personal development books that I again feel the itch to share what I've learned with the world. I recently read
-              "<a href="https://amzn.to/2X3ikeb">The Complete Software Developer's Career by John Sonmez</a>" where he literally
+              "<a href="https://amzn.to/2X3ikeb" rel="noopener noreferrer" target="_blank">The Complete Software Developer's Career by John Sonmez</a>" where he literally
               goes through everything a software developer needs to know to navigate this space. He talks about all the technical and soft skills 
               needed to be successful and what it takes to reach the next level. 
               <br />

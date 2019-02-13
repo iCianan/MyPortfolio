@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, CardText, CardMenu, Button, IconButton } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, CardText, CardMenu, IconButton } from 'react-mdl';
+import { Button } from 'reactstrap'
 
+let cardStyle = {
+  textAlign: 'center', minWidth: '450', margin: 'auto'
+}
 class Project extends Component {
   constructor(props) {
     super(props);
@@ -11,19 +15,21 @@ class Project extends Component {
       return (
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >ASP.NET Project #1</CardTitle>
+          <Card shadow={5} style={cardStyle}>
+            <CardTitle
+              style={{
+                color: '#fff',
+                height: '176px',
+                background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'
+              }}>
+              React Project #1
+            </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                        </CardText>
+              Personal website built using React and Node.Js
+            </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button outline color="primary" href="https://github.com/iCianan/MyPortfolio" rel="noopener noreferrer" target="_blank">GitHub</Button>
             </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
         </div>
       )
@@ -32,15 +38,19 @@ class Project extends Component {
       return (
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >React Project #1</CardTitle>
+          <Card shadow={5} style={cardStyle}>
+            <CardTitle style={{
+              color: '#fff',
+              height: '176px',
+              background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'
+            }} >
+              ASP.NET Project #1
+              </CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
-              <Button colored href="https://github.com/iCianan/MyPortfolio" target="_blank">GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button outline color="primary">GitHub</Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
               <IconButton name="share" />
@@ -52,15 +62,13 @@ class Project extends Component {
       return (
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+          <Card shadow={5} style={cardStyle}>
             <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >Solidity Project #1</CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button outline color="primary">GitHub</Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
               <IconButton name="share" />
@@ -72,33 +80,31 @@ class Project extends Component {
       return (
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+          <Card shadow={5} style={cardStyle}>
             <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >Python Project #1</CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button outline color="primary">GitHub</Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
-        </div>)
+        </div>
+      )
     }
   }
   render() {
     return (
       <div className="category-tabs">
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple >
-          <Tab>ASP.NET</Tab>
           <Tab>React</Tab>
+          <Tab>ASP.NET</Tab>
           <Tab>Solidity</Tab>
           <Tab>Python</Tab>
         </Tabs>
-
         <Grid>
           <Cell col={12}>
             <div className="content">{this.toggleCategories()}</div>
