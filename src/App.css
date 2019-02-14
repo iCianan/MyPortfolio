@@ -1,7 +1,12 @@
+.label {
+    font-weight: bold;
+    text-decoration: underline;
+}
 .header-color {
     background: #000046; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #1CB5E0, #000046); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .landing-grid {
@@ -9,12 +14,11 @@
     background: -webkit-linear-gradient(to right, #1CB5E0, #000046); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
+    position: fixed;
 }
+
 
 
 .avatar-img {
@@ -50,9 +54,8 @@
     }
 
 .social-links {
-    display: flex;
     justify-content: space-between;
-    width: 50%;
+    width:100%;
     margin: auto;
 }
 
@@ -68,7 +71,6 @@
 
 .contact-body {
     margin: auto;
-    position: fixed;
     justify-content: center;
     padding-top: 2em;
     width: 100%;
@@ -84,7 +86,14 @@
     color: black;
     margin-bottom: 20px;
 }
+.ninja {
+    padding-right: 150px; 
+}
 
+.icon-image {
+    max-width: 100px;
+    max-height: 70px;
+}
     .contact-grid h2 {
         font-family: 'Anton', sans-serif;
     }
@@ -102,26 +111,56 @@
 
 .contact-list {
     margin: auto;
-    position: fixed;
     justify-content: center;
     padding-top: 2em;
     width: 100%;
     height: 100%
 }
 .contact-list i {
-    font-size: 66px;
+    font-size: 1em;
     padding-right: 5rem;
 }
+
 .contact-list img {
     height: 100px;
     margin:-15px;
-    padding-right: 55px;
+    padding-right: 50px;
 }
 
 .resume-right-col{
     background: #27221F;
     color: white;
 }
-a, a:visited, a:hover, a:active {
-    color: inherit;
+a, a:link, a:visited, a:hover, a:active {
+    color: #1CB5E0
+}
+@media (max-width: 750px){
+    .landing-grid {
+        position: relative;
+    }
+}
+.blog-title {
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.blog-title-pic {
+    max-width: 500px;
+    max-height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;               
+    
+}
+.page-title {
+    text-align: center;
+    color:black;
+    font-family: 'Oswald';
+}
+.code-text {
+    background: rgba(218, 212, 212, 0.952);
+    color: black;
+    white-space: pre-wrap;
 }
