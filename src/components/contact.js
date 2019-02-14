@@ -5,7 +5,7 @@ class Contact extends Component {
   render() {
     return (
       <Grid>
-        <Cell col={6}>
+        <Cell col={6} style={{marginTop:'35px'}}>
           <h2 className="page-title">I want to hear from you!</h2>
           <hr style={{ borderTop: '3px solid #000046', width: '100%' }} />
           <p>

@@ -20,7 +20,7 @@ class App extends Component {
                 <Link to="/Contact">Contact</Link>
               </Navigation>
             </Header>
-            <Drawer className="header-color" title={<a href="/">Home</a>}>
+            <Drawer title={<a href="/">Home</a>}>
               <Navigation>
                 <Link to="/Resume">Resume</Link>
                 <Link to="/Blog">Blog</Link>
@@ -50,7 +50,6 @@ class App extends Component {
                 </FooterLinkList>
               </FooterSection>
             </Footer>
-
           </Layout>
         </div>
 
