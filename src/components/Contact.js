@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import { Helmet } from 'react-helmet';
+
 
 class Contact extends Component {
   render() {
     return (
+      <div>
+      <Helmet>
+      <title>Contact Me | Keenan Irvin-Benning</title>
+      <meta name="description" content="I'm always open to new challenges and networking opportunities. My plan is to work with the smartest people I can find, solve the hardest problems and work with cutting edge technolgy." />
+    </Helmet>
       <Grid>
         <Cell col={6} style={{marginTop:'35px'}}>
           <h2 className="page-title">I want to hear from you!</h2>
@@ -51,6 +58,7 @@ class Contact extends Component {
           </div>
         </Cell>
       </Grid>
+      </div>
     )
   }
 }
