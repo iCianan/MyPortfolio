@@ -20,7 +20,7 @@ class Blog extends Component {
             <CardText>
               Hey Keenan, why are you wasting time creating a blog? Shouldn't you be learning new tech skills?
             </CardText>
-            <Button tag={Link} to="./blogs/WhyCreateABlog" outline color="primary">Read Post</Button>
+            <Button tag={Link} to="./blogs/why-create-a-blog" outline color="primary">Read Post</Button>
           </CardBody>
         </Card>
         </Col>

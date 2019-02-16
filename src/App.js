@@ -13,20 +13,20 @@ class App extends Component {
           <Layout>
             <Header className="header-color" title={<a style={{color:"white"}} href="/">Home</a>} scroll href="/">
               <Navigation>
-                <Link to="/Resume">Resume</Link>
-                <Link to="/Blog">Blog</Link>
-                <Link to="/Projects">Projects</Link>
-                <Link to="/AboutMe">About Me</Link>
-                <Link to="/Contact">Contact</Link>
+                <Link to="/resume">Resume</Link>
+                <Link to="/blog">Blog</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/about-me">About Me</Link>
+                <Link to="/contact">Contact</Link>
               </Navigation>
             </Header>
             <Drawer title={<a href="/">Home</a>}>
               <Navigation>
-                <Link to="/Resume">Resume</Link>
-                <Link to="/Blog">Blog</Link>
-                <Link to="/Projects">Projects</Link>
-                <Link to="/AboutMe">About Me</Link>
-                <Link to="/Contact">Contact</Link>
+                <Link to="/resume">Resume</Link>
+                <Link to="/blog">Blog</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/about-me">About Me</Link>
+                <Link to="/contact">Contact</Link>
               </Navigation>
             </Drawer>
             <Content>

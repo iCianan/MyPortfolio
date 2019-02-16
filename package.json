@@ -7,6 +7,7 @@
     "http-server": "^0.11.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
+    "react-helmet": "^5.2.0",
     "react-mdl": "^1.11.0",
     "react-protected-mailto": "^1.0.3",
     "react-router-dom": "^4.3.1",
