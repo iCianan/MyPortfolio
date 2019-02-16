@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Row, Jumbotron, Container, Col } from 'reactstrap'
-import sitepic from '../images/sitepic.png';
+import sitepic from '../images/sitePic.png';
 
 class About extends Component {
   render() {
