@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
 import { Container} from 'reactstrap';
+import { Helmet } from 'react-helmet';
 
 class WhyCreateABlog extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>Why Create A Blog | Keenan Irvin-Benning</title>
+          <meta name="description" content="Hey Keenan, why are you wasting time creating a blog? Shouldn't you be learning new tech skills?" />
+        </Helmet>
         <Container>
           <h3 className="page-title">Why Create a Blog?</h3>
           <h5> By Keenan Irvin-Benning | Feb.13.2019 | Personal Development | Reading Time: 5 min</h5>

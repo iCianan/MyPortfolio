@@ -13,13 +13,13 @@ import TwoSumArray from './blogs/TwoSumArray';
 const Main = () => (
   <Switch>
     <Route exact path="/" component={LandingPage} />
-    <Route path="/AboutMe" component={AboutMe} />
-    <Route path="/Resume" component={Resume} />
-    <Route path="/Contact" component={Contact} />
-    <Route path="/Projects" component={Projects} />
-    <Route path="/Blog" component={Blog} />
-    <Route path="/blogs/WhyCreateABlog" component={WhyCreateABlog} />
-    <Route path="/blogs/TwoSumArray" component={TwoSumArray} />
+    <Route path="/about-me" component={AboutMe} />
+    <Route path="/resume" component={Resume} />
+    <Route path="/contact" component={Contact} />
+    <Route path="/projects" component={Projects} />
+    <Route path="/blog" component={Blog} />
+    <Route path="/blogs/why-create-a-blog" component={WhyCreateABlog} />
+    <Route path="/blogs/two-sum-array" component={TwoSumArray} />
   </Switch>
 )
 
