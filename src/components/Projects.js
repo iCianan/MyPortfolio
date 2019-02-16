@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, CardText, CardMenu, IconButton } from 'react-mdl';
 import { Button } from 'reactstrap'
+import { Helmet } from 'react-helmet';
+
 
 let cardStyle = {
   textAlign: 'center', minWidth: '450', margin: 'auto'
@@ -99,6 +101,10 @@ class Project extends Component {
   render() {
     return (
       <div className="category-tabs">
+            <Helmet>
+      <title>Programming Portfolio | Keenan Irvin-Benning</title>
+      <meta name="description" content="An look at some of the projects I've done over the years." />
+    </Helmet>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple >
           <Tab>React</Tab>
           <Tab>ASP.NET</Tab>
