@@ -4,6 +4,7 @@ import {
   CardTitle, CardSubtitle, Button, Col
 } from 'reactstrap'
 import code from '../images/code.jpeg'
+import http from '../images/http.png'
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
@@ -19,6 +20,16 @@ class Blog extends Component {
         <Col sm="12" md={{ size: 6, offset: 3 }}>
           <h2 className="page-title">Its coffee time!</h2>
           <Card >
+          <CardImg className="blog-title-pic" src={http} ></CardImg>
+            <CardBody className="text-center">
+              <CardTitle className="blog-title">What is HTTP?</CardTitle>
+              <hr style={{ borderTop: '3px solid #000046', width: '50', marginLeft: '25%', marginRight: '25%' }} />
+              <CardSubtitle>Feb.19.2019 | Networking | Reading Time: 5 min</CardSubtitle>
+              <CardText>
+                What is this HTTP thing I see in my web browser's search bar?
+            </CardText>
+              <Button tag={Link} to="./blogs/what-is-http" outline color="primary">Read Post</Button>
+            </CardBody>
             <CardImg className="blog-title-pic" src={code} ></CardImg>
             <CardBody className="text-center">
               <CardTitle className="blog-title">Why Create a Blog?</CardTitle>
