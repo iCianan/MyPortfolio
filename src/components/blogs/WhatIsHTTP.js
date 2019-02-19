@@ -18,7 +18,7 @@ class WhyCreateABlog extends Component {
             HTTP is the protocol that allows us to do all the amazing things on the internet we have become reliant on the past 30 something years. 
             <br />
             <br />
-            Whether that’s buying things you don’t need online, reading this blog article, or binging YouTube videos on Game of Throne theories at 
+            Whether that’s buying things you don’t need online, reading this blog article, or binging YouTube videos on Game of Thrones theories at 
             1:30 in the morning. 
             <br />
             <br />
