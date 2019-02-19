@@ -74,7 +74,7 @@ class WhyCreateABlog extends Component {
             I’ll definitely go into more detail about HTTPS as 
             <a href="https://www.blog.google/products/chrome/milestone-chrome-security-marking-http-not-secure/"  target="_blank">it has become the 
             standard for which websites are now judged</a>, I’m looking at you 
-            <a href="http://www.espn.com/" rel="noopener noreferrer" target="_blank">ESPN</a>. In short, it’s a more secure version of HTTP. 
+            <a href="http://www.espn.com/" rel="noopener noreferrer" target="_blank"> ESPN</a>. In short, it’s a more secure version of HTTP. 
             <br />
             <br />
             This is a very simple explanation but covers the basics of what HTTP is, why it’s needed, and what it does. 
